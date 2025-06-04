@@ -1,5 +1,7 @@
 # Proyecto Python
-Se elaboró una aplicación de consola para registrar y monitorear los gastos diarios. Este simulador permite llevar un control básico de los gastos diarios, semanales o mensuales y obtener un resumen o reporte de los gastos en cada categoría.
+"Empanadas Doña Pepa" es un emprendimiento dedicado a la venta de empanadas artesanales con diversos sabores y estilos. Para mejorar la gestión de su tienda y centralizar la información, el equipo ha decidido implementar un sistema que permita registrar los productos disponibles (empanadas) y optimizar su desarrollo colaborativo mediante Git y GitHub para tener toda la trazabilidad del desarrollo del proyecto.
+
+
 
 
 ## Tabla de contenidos
