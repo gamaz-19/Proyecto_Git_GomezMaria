@@ -1,3 +1,1 @@
-[
-    
-]
+[{"id": 6, "nombre": "carne", "precio": 2500, "ingredientes": "carne,queso,arroz", "disponibilidad": "s"}, {"id": 7, "nombre": "pollo", "precio": 3000, "ingredientes": "pollo,queso,jamon", "disponibilidad": "n"}, {"id": 8, "nombre": "hawaiana", "precio": 3000, "ingredientes": "pina,queso,jamon", "disponibilidad": "s"}]

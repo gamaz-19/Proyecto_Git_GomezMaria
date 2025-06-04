@@ -1,11 +1,11 @@
 import json
 
 def abrirJSON():
-    dicFinal=[]
-    with open("/data/data.json",'r') as openFile:
-        dicFinal=json.load(openFile)
-    return dicFinal
+    empanadasTodas= []
+    with open("data/data.json",'r') as openFile:
+        empanadasTodas=json.load(openFile)
+    return empanadasTodas
 
 def guardarJSON(dic):
-    with open("/data/data.json",'w') as outFile:
+    with open("data/data.json",'w') as outFile:
         json.dump(dic,outFile)

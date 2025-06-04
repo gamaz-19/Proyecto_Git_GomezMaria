@@ -7,8 +7,9 @@ from functions.functionJSONS import*
 
 
 
+empanadasTodas = []
+empanadasTodas = abrirJSON()
 
-empanadasTodas= []
 idEmpanada = 1
 
 booleano = True
@@ -55,7 +56,7 @@ Bienvenido a Empanadas Doña Pepa
         }
 
         empanadasTodas.append(empanadaNueva)
-
+        guardarJSON(empanadasTodas)
         idEmpanada = (idEmpanada + 1 )
         print(empanadaNueva)
 
@@ -79,6 +80,8 @@ Bienvenido a Empanadas Doña Pepa
                 empanadasTodas[i]["ingredientes"] = ingredientesN
                 empanadasTodas[i]["disponibilidad"] = disponibilidadN
 
+                guardarJSON(empanadasTodas)
+
                 print (empanadasTodas[i])
 
     elif (menuPrincipal==4):
@@ -89,6 +92,7 @@ Bienvenido a Empanadas Doña Pepa
             if empanadaEliminar == empanadasTodas[i]["id"]:
                 empanadaEliminada = empanadasTodas.pop(i)
                 print (empanadaEliminada)
+                guardarJSON(empanadasTodas)
                 break
 
 
