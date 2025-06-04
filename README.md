@@ -1,5 +1,14 @@
-# Proyecto Python
+# Proyecto EMPANADAS
 "Empanadas Doña Pepa" es un emprendimiento dedicado a la venta de empanadas artesanales con diversos sabores y estilos. Para mejorar la gestión de su tienda y centralizar la información, el equipo ha decidido implementar un sistema que permita registrar los productos disponibles (empanadas) y optimizar su desarrollo colaborativo mediante Git y GitHub para tener toda la trazabilidad del desarrollo del proyecto.
+
+
+
+
+
+
+
+
+
 
 
 
