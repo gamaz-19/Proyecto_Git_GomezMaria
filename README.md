@@ -20,6 +20,14 @@
 | functions| En esta sección se encuentran todos los datos almacenados en archivos JSON|
 | data| En esta sección se encuentra el archivo principal, donde se encuentra la estructura base del simulador. |
 
+
+
+
+
+
+
+
+
 ### Instalaciones 
 No se necesitan instalaciones previas
 ```
@@ -30,3 +38,9 @@ No se necesitan instalaciones previas
 
 
 Hecho por [María Alejandra Gómez Archila](https://algunapersonaenestemundo)
+
+
+
+
+
+#Adding conflict readme 2
