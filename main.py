@@ -30,7 +30,11 @@ Bienvenido a Empanadas Doña Pepa
     if (menuPrincipal==1):
         print("Tipos de empanadas")
         for i in range (len(empanadasTodas)):
-            print (empanadasTodas[i])
+            empanadasNombres = [nombre["nombre"] for nombre in empanadasTodas]
+            #Set se usa para quiter los duplicados
+            empanadasNombres = set(empanadasNombres)
+        print (empanadasNombres)
+
 
 
     elif (menuPrincipal==2):
